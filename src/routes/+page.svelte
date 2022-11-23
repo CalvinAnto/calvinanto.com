@@ -1,0 +1,53 @@
+<svelte:head>
+    <title>Home</title>
+</svelte:head>
+
+<script>
+     /**
+   * @type {{ age: any; }}
+   */
+      export let data;
+</script>
+
+<main>
+    <h1>Calvin - {data.age} years old </h1>
+    <p>I like to learn new technologies and is currently learning new stuff each day.</p>
+
+    <p>I also like <b>music</b> and <b>gaming</b> and try to do those activities in my free time.</p>
+
+    <p>
+        Stuff I have tried learning
+        <span style="font-size: 0.5em;">with varying degree of success</span>
+        <div style="margin-left: 75px;">
+            - Java SE <br>
+            - JavaScript <br>
+            - Amazon S3 <br>
+            - SvelteKit <br>
+            - C / C++ <br>
+            - SQL <br>
+            - MongoDB <br>
+            - Firebase <br>
+            - etc, check out <a href="/resume">resume</a>
+        </div>
+    <p>
+
+    <p>Please look at the <a href="/projects">projects</a> that I've created, some might be kind of useful for you :D</p>
+
+
+</main>
+
+
+<style>
+    main {
+        font-size: 1.2em;
+    }
+
+    p {
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    a {
+        color: black;
+    }
+</style>
