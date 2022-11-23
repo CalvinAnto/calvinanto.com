@@ -40,9 +40,20 @@
 
     .card-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 500px 500px;
         margin-top: 25px;
         gap: 10px;
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-top: 25px;
+            gap: 10px;
+        }
     }
 
     .card {
@@ -57,6 +68,7 @@
 
     .card img {
         max-height: 270px;
+        width: 100%;
         object-fit: cover;
         display: block;
         margin: 0 auto;

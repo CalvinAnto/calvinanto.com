@@ -37,8 +37,9 @@
 
   :global(body) {
     background: #f5faff;
-    /* padding: 0 15%; */
+    padding: 0 5%;
   }
+  
   
   main {
     min-height: calc(100vh - 200px);
@@ -49,6 +50,17 @@
   footer {
     width: 1080px;
     margin: 0 auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    main {
+      width: 80%;
+    }
+
+    footer {
+      width: 80%;
+    }
   }
 
   .footer-container {

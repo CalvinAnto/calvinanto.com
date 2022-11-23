@@ -18,7 +18,7 @@
     <p>
         Stuff I have tried learning
         <span style="font-size: 0.5em;">with varying degree of success</span>
-        <div style="margin-left: 75px;">
+        <div style="margin-left: 25px;">
             - Java SE <br>
             - JavaScript <br>
             - Amazon S3 <br>
@@ -43,7 +43,6 @@
     }
 
     p {
-        margin-left: 50px;
         margin-top: 25px;
     }
 
