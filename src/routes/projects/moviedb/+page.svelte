@@ -14,6 +14,6 @@
     div {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 50px;
+        gap: 10px;
     }
 </style>

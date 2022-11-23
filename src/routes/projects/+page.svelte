@@ -40,7 +40,7 @@
 
     .card-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         grid-auto-flow: row dense;
         margin-top: 25px;
         gap: 10px;
