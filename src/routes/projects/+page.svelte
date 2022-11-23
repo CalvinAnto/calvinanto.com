@@ -41,10 +41,15 @@
     .card-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        grid-auto-flow: row dense;
         margin-top: 25px;
         gap: 10px;
         /* justify-content: center; */
+    }
+
+    @media only screen and (max-width: 768px) {
+        .card-grid {
+            grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
+        }
     }
 
     .card {
