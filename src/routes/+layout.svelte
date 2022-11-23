@@ -37,23 +37,21 @@
 
   :global(body) {
     background: #f5faff;
-    padding: 0 5%;
   }
   
   
   main {
     min-height: calc(100vh - 200px);
-    width: 1080px;
+    width: 60%;
     margin: 0 auto;
   }
 
   footer {
-    width: 1080px;
+    width: 60%;
     margin: 0 auto;
   }
 
   @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
     main {
       width: 80%;
     }
@@ -79,11 +77,8 @@
   }
 
   nav a {
-    line-height: 40px;
-    height: 40px;
-    padding: 0 10px;
+    padding: 10px;
     text-align: center;
-    line-height: 40px;
     margin: 10px 10px;
     text-decoration: none;
     background: #97e2f2;

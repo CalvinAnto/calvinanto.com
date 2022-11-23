@@ -40,29 +40,18 @@
 
     .card-grid {
         display: grid;
-        grid-template-columns: 500px 500px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-auto-flow: row dense;
         margin-top: 25px;
         gap: 10px;
-        justify-content: center;
-    }
-
-    @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-        .card-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            margin-top: 25px;
-            gap: 10px;
-        }
+        /* justify-content: center; */
     }
 
     .card {
         display: inline-block;
-        /* border: 2px solid black; */
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         border-radius: 8px;
         justify-content: center;
-        overflow: hidden;
         background: white;
     }
 
@@ -70,8 +59,6 @@
         max-height: 270px;
         width: 100%;
         object-fit: cover;
-        display: block;
-        margin: 0 auto;
     }
 
     .card-content {
