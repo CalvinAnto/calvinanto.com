@@ -58,6 +58,7 @@
         border-radius: 8px;
         justify-content: center;
         background: white;
+        overflow: hidden;
     }
 
     .card img {
