@@ -81,14 +81,14 @@
     text-align: center;
     margin: 10px 10px;
     text-decoration: none;
-    background: #97e2f2;
+    /* background: #97e2f2; */
     border-radius: 8px;
-    color: #0066af;
-    border: #0066af 1px solid;
+    color: black;
+    /* border: #0066af 1px solid; */
   }
 
-  nav a:hover {
-    background: #0066af;
+  nav a:hover, .active {
+    background: black;
     color: white;
   }
 
@@ -96,11 +96,6 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-  }
-
-  .active {
-    background: #0066af;
-    color: white;
   }
 
   img {
