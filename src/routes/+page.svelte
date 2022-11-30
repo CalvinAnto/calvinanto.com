@@ -11,13 +11,13 @@
 
 <main>
     <h1>Calvin - {data.age} years old </h1>
+    <p>I'm a full stack developer that is experienced in javascript and C.</p>
     <p>I like to learn new technologies and is currently learning new stuff each day.</p>
-
-    <p>I also like <b>music</b> and <b>gaming</b> and try to do those activities in my free time.</p>
+    <p>I also like <b>music</b> and <b>gaming</b> and do them in my free time.</p>
 
     <p>
-        Stuff I have tried learning
-        <span style="font-size: 0.5em;">with varying degree of success</span>
+        I have experience in
+        <!-- <span style="font-size: 0.5em;">with varying degree of success</span> -->
         <div style="margin-left: 25px;">
             - Java SE <br>
             - JavaScript <br>
@@ -27,7 +27,7 @@
             - SQL <br>
             - MongoDB <br>
             - Firebase <br>
-            - etc, check out <a href="/resume">resume</a>
+            - and more, check out my <a href="/resume">resume</a>
         </div>
     <p>
 
