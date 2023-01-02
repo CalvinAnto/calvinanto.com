@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Resume</title>
+    <title>Resume - Calvin Anto</title>
 </svelte:head>
 
 <main>
@@ -9,7 +9,7 @@
 
     <h2>Summary</h2>
     <br>
-    <p>Fresh graduate from Binus University majoring in Computer Science. Experienced in developing websites with sveltekit and laravel. Also experienced in teaching computer science courses for 3 years at Binus University. Looking for a job opportunity to apply and polish my javascript/php skills.</p>
+    <p>Fresh graduate from Binus University majoring in Computer Science. Experienced in developing websites with sveltekit and laravel. Also experienced in teaching computer science courses for 3 years at Binus University. Looking for a job opportunity to apply and polish my javascript skills.</p>
     <br>
 
     <h2>Work Experience</h2>

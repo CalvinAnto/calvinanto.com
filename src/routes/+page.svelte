@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Home</title>
+    <title>Home - Calvin Anto</title>
 </svelte:head>
 
 <script>

@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Contact</title>
+    <title>Contact - CalvinAnto</title>
 </svelte:head>
 
 <main>

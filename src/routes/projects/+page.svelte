@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Projects</title>
+    <title>Projects - CalvinAnto</title>
 </svelte:head>
 
 <main>
