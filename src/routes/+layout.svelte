@@ -21,7 +21,7 @@
   <div class="footer-container">
     <div>
       <p>CalvinAnto</p>
-      <p style="font-size: 0.75em;">©2022 CalvinAnto</p>
+      <p style="font-size: 0.75em;">©2023 CalvinAnto</p>
     </div>
     <div>
       <a href="https://github.com/CalvinAnto" target="_blank" rel="noopener noreferrer"><img src="GitHub-Mark-64px.png" alt="github"></a>
